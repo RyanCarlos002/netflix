@@ -37,7 +37,7 @@ export default function Home() {
       </div>
     </header>
 
-      <section className="bg-[url('https://occ-0-577-1356.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABW_FinO_SRcQS1m2PBqE1zVDnkQhUcuqQ9EWuAA0mMQdtj0pzJs8DhTgOQgvolXMWjUqLkFN7NltUIVdb-t_I-0m6QCP2PU3eUxN.webp?r=e02')] h-screen bg-cover w-auto ">
+    <section className="bg-[url('https://occ-0-577-1356.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABW_FinO_SRcQS1m2PBqE1zVDnkQhUcuqQ9EWuAA0mMQdtj0pzJs8DhTgOQgvolXMWjUqLkFN7NltUIVdb-t_I-0m6QCP2PU3eUxN.webp?r=e02')] h-screen bg-cover w-auto ">
         <div className=' bg-gradient-to-r from-black h-screen'>
           <Image alt='' height={450} width={650} src={'/sonic.png'} className='flex pt-24'/>
 
@@ -75,9 +75,7 @@ export default function Home() {
 
         <h1 className='text-white flex ml-10 pt-16 text-xl font-bold'> Lançamentos </h1>
         <div className='flex pt-2 gap-4 ml-10 '>
-          <div className='hover:transform'>
-            <Image alt='' height={30} width={250} src={'/sexeducation.jpg'} className='flex rounded'/>
-          </div>                
+          <Image alt='' height={30} width={250} src={'/sexeducation.jpg'} className='flex rounded'/>
           <Image alt='' height={30} width={250} src={'/onepiece.jpg'} className='flex rounded'/>
           <Image alt='' height={30} width={250} src={'/jogododiabo.jpg'} className='flex rounded'/>
           <Image alt='' height={30} width={250} src={'/depoisdacabana.jpg'} className='flex rounded'/>
@@ -85,17 +83,42 @@ export default function Home() {
 
         </div>
       </div>
-
     </section>
 
-    <footer className=''>
-      <nav>
+    <footer className='bg-black'>
+      {/* <nav>
         <a href="https://www.facebook.com/netflixbrasil/?locale=pt_BR"> <AiOutlineFacebook/> </a>
         <a href="https://www.instagram.com/netflixbrasil/?hl=pt-br"> <AiOutlineInstagram/> </a>
-        <a href="https://twitter.com/netflix"> <FaSquareXTwitter/> </a>
+        <a className='bg-white h-30 w-30 bg' href= "https://twitter.com/netflix"> <FaSquareXTwitter/> </a>
 
-      </nav>
+      </nav> */}
+      <section className='text-white flex text-xs justify-around'>
+        <div className='flex flex-col gap-5 '>
+          <a href="">Audiodescrição</a>
+          <a href="">Relações com investidores</a>
+          <a href="">Avisos legais</a>
+        </div>
+        <div className='flex flex-col gap-5'>
+          <a href="">Central de Ajuda</a>
+          <a href="">Carreiras</a>
+          <a href="">Preferências de cookies</a>
+        </div>
+        <div className='flex flex-col gap-5'>
+          <a href="">Cartão pŕe-pago</a>
+          <a href="">Termo de uso</a>
+          <a href="">Informações corporativas</a>
+        </div>
+        <div className='flex flex-col gap-5'>
+          <a href="">Imprensa</a>
+          <a href="">Privacidade</a>
+          <a href="">Entre em contato</a>
+        </div>
+        
+      </section>
 
+      <button className='text-white flex border-2 h-8 w-36 mt-10 ml-[100px] text-xs justify-center items-center'>
+          Código de serviço
+      </button>
     </footer>
     
     
