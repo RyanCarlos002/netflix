@@ -9,34 +9,14 @@ import {AiOutlineInstagram} from "react-icons/ai"
 import {AiOutlineYoutube} from "react-icons/ai"
 import {FaSquareXTwitter} from "react-icons/fa6"
 import Link from 'next/link'
+import Header from './components/header'
 
 
 export default function Home() {
   return (
     <>
-    <header className='flex gap-5 text-xs px-10 text-white bg-black '>
-      <Image alt='' height={70} width={100} src={'/logonetflix.png'} className='flex '/>
-
-      <div className='flex items-center justify-between w-full'>
-        <nav className='gap-6 flex'>
-          <a href="">Início</a>        
-          <a href="">Séries</a>        
-          <a href="">Filmes</a>        
-          <a href="">Bombando</a>        
-          <a href="">Minha Lista</a>        
-          <a href="">Navegar por idiomas</a> 
-        </nav>
-
-        <nav className='flex justify-between items-center gap-6 '>
-          <a href=""> <AiOutlineSearch/> </a>
-          <a href="" className=''> Infantil </a>       
-          <a href=""> <BiBell/> </a>
-          <a href=""> < AiFillPicture/> </a>
-
-        </nav>
-      </div>
-    </header>
-
+    
+    <Header/>
     <section className="bg-[url('https://occ-0-577-1356.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABW_FinO_SRcQS1m2PBqE1zVDnkQhUcuqQ9EWuAA0mMQdtj0pzJs8DhTgOQgvolXMWjUqLkFN7NltUIVdb-t_I-0m6QCP2PU3eUxN.webp?r=e02')] h-screen bg-cover w-auto ">
         <div className=' bg-gradient-to-r from-black h-screen'>
           <Image alt='' height={450} width={650} src={'/sonic.png'} className='flex pt-24'/>
