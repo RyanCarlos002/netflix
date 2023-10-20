@@ -5,7 +5,7 @@ import {AiFillPicture} from "react-icons/ai"
 
 export default function Header() {
     return (
-        <header className='flex gap-5 text-xs px-10 text-white bg-black '>
+        <header className='flex gap-5 text-xs px-10 text-white absolute w-full'>
             <Image alt='' height={70} width={100} src={'/logonetflix.png'} className='flex '/>
 
             <div className='flex items-center justify-between w-full'>

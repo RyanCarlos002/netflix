@@ -1,7 +1,8 @@
 import Header from './components/header'
 import Banner from './components/banner'
-import Filmes from './components/filmes'
+import Movies from './components/movies'
 import Footer from './components/footer'
+
 
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
     
     <Header/>
     <Banner/>
-    <Filmes/>
+    <Movies/> 
     <Footer/>
     
     </>
